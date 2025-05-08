@@ -24,7 +24,7 @@ document.getElementById("change_user_button").addEventListener("click", function
 
   // user = braze.changeUser(userId)
   
-  user = braze.changeUser('rohan_test_1')
+  user = braze.changeUser(userId)
 });
 
 var first = document.getElementById("fn_text");
