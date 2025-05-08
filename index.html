@@ -114,9 +114,10 @@ braze.subscribeToContentCardsUpdates(function(cards){
 
 
 // `openSession` should be called last - after `changeUser` and `automaticallyShowInAppMessages`
-braze.openSession();
+
 braze.changeUser('rohan_test_1');
 braze.automaticallyShowInAppMessages();
+braze.openSession();
   
   </script>
 
