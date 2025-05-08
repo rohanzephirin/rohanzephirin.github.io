@@ -100,7 +100,7 @@ braze.initialize('f738609b-3798-4667-b813-8fb97a43019f', {
 });
 
 // optionally show all in-app messages without custom handling
-// braze.automaticallyShowInAppMessages();
+braze.automaticallyShowInAppMessages();
 
 // if you use Content Cards
 braze.subscribeToContentCardsUpdates(function(cards){
@@ -115,10 +115,9 @@ braze.subscribeToContentCardsUpdates(function(cards){
 
 // `openSession` should be called last - after `changeUser` and `automaticallyShowInAppMessages`
 
-// braze.changeUser('rohan_test_1');
-
-braze.automaticallyShowInAppMessages();
 braze.openSession();
+
+
   
   </script>
 
