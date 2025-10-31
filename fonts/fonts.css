@@ -2,7 +2,10 @@
   font-family: "Spooky Theme";
   font-style: normal;
   font-weight: 400;
-  src: 
-    url(/fonts/'/Users/Rohan.Zephirin/Documents/GitHub/rohanzephirin.github.io/fonts/Spooky Theme.otf') format("opentype")
-
+  /*
+    This path is now relative to the CSS file.
+    Since both files are in the /fonts/ folder, this will work.
+    Quotes are needed because the filename has spaces.
+  */
+  src: url('Spooky Theme.otf') format("opentype");
 }
